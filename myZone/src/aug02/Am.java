@@ -2,7 +2,7 @@ package aug02;
 
 import java.util.Scanner;
 
-public class AM {
+public class Am {
 	//메소드는 메소드 밖에 클래스 안에서 선언
 	//{} 있으면 선언 / 없으면 사용
 	//매개변수는 여러 개 가능
@@ -16,7 +16,7 @@ public class AM {
 	public static void main(String[] args) {
 
 		//메소드 사용시, 메소드의 소속을 먼저 알려주기
-		AM am = new AM();
+		Am am = new Am();
 		
 		am.mul(2, 4);//값
 		//리턴타입 ==  void : 값x

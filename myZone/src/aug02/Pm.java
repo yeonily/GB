@@ -1,6 +1,6 @@
 package aug02;
 
-public class PM {
+public class Pm {
 	
 //  1~10까지 println()으로 출력하는 메소드
 	//메소드 선언
@@ -68,7 +68,7 @@ public class PM {
 	
 	public static void main(String[] args) {
 		//메소드의 소속 알려주기
-		PM pm = new PM();
+		Pm pm = new Pm();
 		//선언한 메소드 사용하기
 		pm.print1to10();
 		pm.printHong(2);

@@ -2,7 +2,7 @@ package aug01;
 
 import java.util.Scanner;
 
-public class PM {
+public class Pm {
 
 	public static void main(String[] args) {
 // 1~10까지 배열에 담고 출력

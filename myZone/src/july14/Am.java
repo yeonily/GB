@@ -1,6 +1,6 @@
 package july14;
 
-public class AM {
+public class Am {
 
 	public static void main(String[] args) {
 		
@@ -47,5 +47,7 @@ public class AM {
 				
 				
 	}
+
+
 
 }

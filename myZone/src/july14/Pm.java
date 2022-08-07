@@ -2,7 +2,7 @@ package july14;
 
 import java.util.Scanner;
 
-public class PM {
+public class Pm {
 
 	public static void main(String[] args) {
 		
@@ -116,5 +116,7 @@ public class PM {
 			
 			
 	}
+
+
 
 }

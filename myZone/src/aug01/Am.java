@@ -1,6 +1,6 @@
 package aug01;
 
-public class AM {
+public class Am {
 
 	public static void main(String[] args) {
 		//switch문에서 break로 반복문을 탈출할 수 없다 >> switch를 감싸고 있는 영역을 탈출 불가
