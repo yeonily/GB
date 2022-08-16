@@ -34,8 +34,10 @@ public class ZooReview {
 		String actionMsg = "1.먹기\n2.자기\n3.산책하기\n4.내 정보\n5.작별인사하기";
 		//캐릭터번호 변수, 액션번호 변수 선언
 		int animalNumber = 0, actionChoice = 0;
+		boolean error = false;
 		
 		//반복횟수를 알 수 없는 반복문
+		//while문에서 오타났을 경우 막아주는 법?????
 		while(true) {
 		//제목 출력
 		//동물 선택 메뉴 출력
@@ -45,6 +47,17 @@ public class ZooReview {
 			System.out.println(menuMsg);
 			animalNumber = sc.nextInt();
 			if(animalNumber == 4) {break;}
+//			switch(animalNumber) {
+//			case 1:
+//			case 2:
+//			case 3:
+//			case 4:
+//				break;
+//			default:
+//				System.out.println("다시 입력해주세요");
+//				break;
+//			}
+//			if(error) {break;}
 		
 		//반복횟수를 알 수 없는 반복문
 			while(true) {
@@ -191,10 +204,12 @@ public class ZooReview {
 		//다시 입력 출력
 		//조건문 탈출
 				default:
+					error = true;
 					System.out.println("다시 입력해주세요");
 					break;
 				}
 			}
+			
 		}
 	}
 
