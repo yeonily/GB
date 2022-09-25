@@ -1,4 +1,4 @@
-package BankReview;
+package bankReview;
 
 //우리(재정의, super)
 //잔액 조회시 재산 반토막

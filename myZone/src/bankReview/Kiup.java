@@ -1,4 +1,4 @@
-package BankReview;
+package bankReview;
 	
 //기업(재정의, super)
 //입금 시 수수료 50%

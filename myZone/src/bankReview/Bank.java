@@ -1,4 +1,4 @@
-package BankReview;
+package bankReview;
 
 public class Bank {
 	//은행은 3개를 선언한다.

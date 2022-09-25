@@ -1,4 +1,4 @@
-package BankReview;
+package bankReview;
 
 import java.util.Random;
 import java.util.Scanner;

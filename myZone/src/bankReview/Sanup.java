@@ -1,4 +1,4 @@
-package BankReview;
+package bankReview;
 
 //산업(재정의, super)
 //출금 시 수수료 50%
